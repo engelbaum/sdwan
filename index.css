@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+    color:white;
+}
+
+header, section, article, footer {
+    margin: 20px auto;
+    max-width: 1100px;
+
+}
+
+header {
+    background-color: rgb(15, 14, 14);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+h1 {
+    margin: 0;
+}
+/* Rajoute une marge externe grise à tous les côtés */
+.element {
+    margin: 10px; /* Remplace 10px par la valeur de marge souhaitée */
+    background-color: #808080; /* Couleur grise */
+}
+
+section {
+    
+    background-color: #0b0a0a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(4, 4, 4, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    section, article {
+        padding: 15px; /* Adjust padding for smaller screens */
+        
+    }
+    
+}
