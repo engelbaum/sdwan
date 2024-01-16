@@ -6,7 +6,12 @@ body {
     background-color: gray;
     color:white;
 }
-
+a{
+    color:gray;
+}
+h2{
+    color: grey;
+}
 header, section, article, footer {
     margin: 20px auto;
     max-width: 1100px;
